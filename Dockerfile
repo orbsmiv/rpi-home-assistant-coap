@@ -19,7 +19,6 @@ RUN apt-get update && \
   && make \
   && make install \
   && apt-get purge \
-      libmysqlclient-dev \
       libtool \
       autoconf \
       automake \
