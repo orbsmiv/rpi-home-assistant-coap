@@ -5,7 +5,7 @@ RUN [ "cross-build-start" ]
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-      libmysqlclient-dev \
+      default-libmysqlclient-dev \
       libtool \
       autoconf \
       automake \
